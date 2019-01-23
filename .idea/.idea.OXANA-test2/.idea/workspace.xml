@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="344431e1-d6f1-47ce-afc0-1c58ff305629" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Enviroment/LevelGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Enviroment/LevelGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/GameObjects/GameObjectsGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/GameObjects/GameObjectsGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/GameObjects/ObjectsEntityFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/GameObjects/ObjectsEntityFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement/Components/InputConroller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement/Components/InputConroller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement/Components/Velocity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement/Components/Velocity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement/Debug.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement/MovementSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement/MovementSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Movement/Systems.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Resources/Buttons/ButtonHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Resources/Buttons/ButtonHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Resources/DefaultInitializeSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Resources/DefaultInitializeSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Resources/DefaultMovementSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Resources/DefaultMovementSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ECS/Resources/Misc/InitializeSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ECS/Resources/Misc/InitializeSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Materials/LowPolyBase.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Materials/LowPolyBase.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Materials/LowPolyDark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Materials/LowPolyDark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Materials/LowPolyWater.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Materials/LowPolyWater.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes/GroundRollingStone.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes/GroundRollingStone.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes/Materials/Rock.018.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes/Materials/Rock.018.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes/Materials/snow.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes/Materials/snow.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes/Mountain1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Meshes/Mountain1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Prefabs/Water.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Prefabs/Water.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Scripts/CheckForStandardAssets.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Scripts/CheckForStandardAssets.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Shaders/FXWaterLowpoly.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Shaders/FXWaterLowpoly.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Shaders/WaterInclude.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Shaders/WaterInclude.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Textures/Distortion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Textures/Distortion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Textures/LowPolyBase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HolyShift/Textures/LowPolyBase.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEngine/Models/ChiyaChan.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEngine/Models/ChiyaChan.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEngine/Models/Cube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEngine/Models/Cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEngine/Models/Item.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEngine/Models/Item.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEngine/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEngine/Scenes/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEngine/Scripts/TestSceneInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEngine/Scripts/TestSceneInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/UnityEngine/Scripts/TestSceneInitializer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <marker date="1548229489218" expanded="false" signature="6:112" ph="..." />
+                <marker date="1548229489218" expanded="true" signature="177:2162" ph="{...}" />
+                <marker date="1548229489218" expanded="true" signature="184:246" ph="/// Объявление переменных ... " />
+                <marker date="1548229489218" expanded="true" signature="602:718" ph="/// Методы подготовки к загрузке и образованию сцены ... " />
+                <marker date="1548229489218" expanded="true" signature="834:959" ph="{...}" />
+                <marker date="1548229489218" expanded="false" signature="965:1461" ph="&quot;Метод загрузки архетипов LoadArchetypes();&quot;" />
+                <marker date="1548229489218" expanded="true" signature="1074:1446" ph="{...}" />
+                <marker date="1548229489218" expanded="true" signature="1585:2158" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Enviroment/LevelGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="57" column="90" selection-start-line="57" selection-start-column="90" selection-end-line="57" selection-end-column="90" />
+              <folding>
+                <marker date="1548228305798" expanded="false" signature="6:232" ph="..." />
+                <marker date="1548228305798" expanded="true" signature="268:4065" ph="{...}" />
+                <marker date="1548228305798" expanded="true" signature="276:472" ph="/// Методы Добавления объектов мира ... " />
+                <marker date="1548228305798" expanded="false" signature="478:1981" ph="// Метод импорта карты ImportMap();" />
+                <marker date="1548228305798" expanded="true" signature="637:1966" ph="{...}" />
+                <marker date="1548228305798" expanded="true" signature="1396:1904" ph="{...}" />
+                <marker date="1548228305798" expanded="true" signature="1459:1894" ph="{...}" />
+                <marker date="1548228305798" expanded="true" signature="1530:1880" ph="{...}" />
+                <marker date="1548228305798" expanded="true" signature="1987:2544" ph="// Метод импорта карты ImportWater();" />
+                <marker date="1548228305798" expanded="true" signature="2150:2529" ph="{...}" />
+                <marker date="1548228305798" expanded="true" signature="2591:2764" ph="/// Приватные классы для методов ... " />
+                <marker date="1548228305798" expanded="false" signature="2773:2979" ph="//Просчёт общего количество блоков" />
+                <marker date="1548228305798" expanded="true" signature="2875:2964" ph="{...}" />
+                <marker date="1548228305798" expanded="false" signature="2985:3454" ph="//Просчёт следующей позиции блока" />
+                <marker date="1548228305798" expanded="true" signature="3124:3439" ph="{...}" />
+                <marker date="1548228305798" expanded="false" signature="3460:4063" ph="//Метод добавления Меша к сущности сектора" />
+                <marker date="1548228305798" expanded="true" signature="3669:4048" ph="{...}" />
+                <marker date="1548228305798" expanded="true" signature="3777:4011" ph="{...}" />
+                <marker date="1548228305798" expanded="true" signature="3893:4001" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Resources/Buttons/ButtonHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <marker date="1548227780741" expanded="false" signature="6:185" ph="..." />
+                <marker date="1548227780741" expanded="true" signature="229:1842" ph="{...}" />
+                <marker date="1548227780741" expanded="true" signature="267:1691" ph="{...}" />
+                <marker date="1548227780741" expanded="true" signature="1751:1840" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/GameObjects/GameObjectsGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+              <folding>
+                <marker date="1548228305496" expanded="false" signature="6:150" ph="..." />
+                <marker date="1548228305496" expanded="true" signature="192:2938" ph="{...}" />
+                <marker date="1548228305496" expanded="true" signature="314:1224" ph="{...}" />
+                <marker date="1548228305496" expanded="true" signature="1343:2238" ph="{...}" />
+                <marker date="1548228305496" expanded="true" signature="2355:2936" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ECS/Resources/Misc/InitializeSettings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-377">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+              <folding>
+                <marker date="1548229158746" expanded="false" signature="6:247" ph="..." />
+                <marker date="1548229158746" expanded="true" signature="414:2660" ph="{...}" />
+                <marker date="1548229158746" expanded="true" signature="1068:1456" ph="{...}" />
+                <marker date="1548229158746" expanded="true" signature="1502:1811" ph="{...}" />
+                <marker date="1548229158746" expanded="true" signature="1856:2076" ph="{...}" />
+                <marker date="1548229158746" expanded="true" signature="2122:2310" ph="{...}" />
+                <marker date="1548229158746" expanded="true" signature="2356:2508" ph="{...}" />
+                <marker date="1548229158746" expanded="true" signature="2566:2658" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/GameObjects/GameObjectsGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityEngine/Scripts/TestSceneInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Enviroment/LevelGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Resources/Misc/InitializeSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ECS/Resources/Buttons/ButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/ECS/Resources/Buttons/ButtonHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/Enviroment/LevelGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/GameObjects/GameObjectsGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECS/Resources/Misc/InitializeSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/UnityEngine/Scripts/TestSceneInitializer.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="riderModule/invalid/Default Android Facet" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
+              <item name="GameObjects" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
+              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
+              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
+              <item name="Buttons" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="ECS" type="1045f7f1:UnityExplorerNode" />
+              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
+              <item name="Misc" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="UnityEngine" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="UnityEngine" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="344431e1-d6f1-47ce-afc0-1c58ff305629" name="Default Changelist" comment="" />
+      <created>1548226683643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548226683643</updated>
+      <workItem from="1548226702367" duration="3369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3369000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/DefaultInitializeSettings.asset">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Resources/Misc/InitializeSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-377">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <marker date="1548229158746" expanded="false" signature="6:247" ph="..." />
+            <marker date="1548229158746" expanded="true" signature="414:2660" ph="{...}" />
+            <marker date="1548229158746" expanded="true" signature="1068:1456" ph="{...}" />
+            <marker date="1548229158746" expanded="true" signature="1502:1811" ph="{...}" />
+            <marker date="1548229158746" expanded="true" signature="1856:2076" ph="{...}" />
+            <marker date="1548229158746" expanded="true" signature="2122:2310" ph="{...}" />
+            <marker date="1548229158746" expanded="true" signature="2356:2508" ph="{...}" />
+            <marker date="1548229158746" expanded="true" signature="2566:2658" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/GameObjects/GameObjectsGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+          <folding>
+            <marker date="1548228305496" expanded="false" signature="6:150" ph="..." />
+            <marker date="1548228305496" expanded="true" signature="192:2938" ph="{...}" />
+            <marker date="1548228305496" expanded="true" signature="314:1224" ph="{...}" />
+            <marker date="1548228305496" expanded="true" signature="1343:2238" ph="{...}" />
+            <marker date="1548228305496" expanded="true" signature="2355:2936" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Resources/Buttons/ButtonHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <marker date="1548227780741" expanded="false" signature="6:185" ph="..." />
+            <marker date="1548227780741" expanded="true" signature="229:1842" ph="{...}" />
+            <marker date="1548227780741" expanded="true" signature="267:1691" ph="{...}" />
+            <marker date="1548227780741" expanded="true" signature="1751:1840" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ECS/Enviroment/LevelGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="57" column="90" selection-start-line="57" selection-start-column="90" selection-end-line="57" selection-end-column="90" />
+          <folding>
+            <marker date="1548228305798" expanded="false" signature="6:232" ph="..." />
+            <marker date="1548228305798" expanded="true" signature="268:4065" ph="{...}" />
+            <marker date="1548228305798" expanded="true" signature="276:472" ph="/// Методы Добавления объектов мира ... " />
+            <marker date="1548228305798" expanded="false" signature="478:1981" ph="// Метод импорта карты ImportMap();" />
+            <marker date="1548228305798" expanded="true" signature="637:1966" ph="{...}" />
+            <marker date="1548228305798" expanded="true" signature="1396:1904" ph="{...}" />
+            <marker date="1548228305798" expanded="true" signature="1459:1894" ph="{...}" />
+            <marker date="1548228305798" expanded="true" signature="1530:1880" ph="{...}" />
+            <marker date="1548228305798" expanded="true" signature="1987:2544" ph="// Метод импорта карты ImportWater();" />
+            <marker date="1548228305798" expanded="true" signature="2150:2529" ph="{...}" />
+            <marker date="1548228305798" expanded="true" signature="2591:2764" ph="/// Приватные классы для методов ... " />
+            <marker date="1548228305798" expanded="false" signature="2773:2979" ph="//Просчёт общего количество блоков" />
+            <marker date="1548228305798" expanded="true" signature="2875:2964" ph="{...}" />
+            <marker date="1548228305798" expanded="false" signature="2985:3454" ph="//Просчёт следующей позиции блока" />
+            <marker date="1548228305798" expanded="true" signature="3124:3439" ph="{...}" />
+            <marker date="1548228305798" expanded="false" signature="3460:4063" ph="//Метод добавления Меша к сущности сектора" />
+            <marker date="1548228305798" expanded="true" signature="3669:4048" ph="{...}" />
+            <marker date="1548228305798" expanded="true" signature="3777:4011" ph="{...}" />
+            <marker date="1548228305798" expanded="true" signature="3893:4001" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnityEngine/Scripts/TestSceneInitializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <marker date="1548229489218" expanded="false" signature="6:112" ph="..." />
+            <marker date="1548229489218" expanded="true" signature="177:2162" ph="{...}" />
+            <marker date="1548229489218" expanded="true" signature="184:246" ph="/// Объявление переменных ... " />
+            <marker date="1548229489218" expanded="true" signature="602:718" ph="/// Методы подготовки к загрузке и образованию сцены ... " />
+            <marker date="1548229489218" expanded="true" signature="834:959" ph="{...}" />
+            <marker date="1548229489218" expanded="false" signature="965:1461" ph="&quot;Метод загрузки архетипов LoadArchetypes();&quot;" />
+            <marker date="1548229489218" expanded="true" signature="1074:1446" ph="{...}" />
+            <marker date="1548229489218" expanded="true" signature="1585:2158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

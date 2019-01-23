@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3349374343653864aa51af708376234a, type: 3}
+  m_Name: DefaultInitializeSettings
+  m_EditorClassIdentifier: 
+  spawnObjects: 1
+  enemyCount: 10
+  itemsCount: 10
+  levelLength: 8
+  levelHeight: 5
+  playerStats:
+    position:
+      Value:
+        x: -15
+        y: 0
+        z: 5
+    rotation:
+      Value:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+    scale:
+      Value:
+        x: 1
+        y: 1
+        z: 1
+    aabbcollider:
+      x: 0
+      y: 0
+      z: 0
+    rigidbody: 0
+    velocity:
+      x: 0
+      y: 0
+      z: 0
+    health: 0
+    damage: 0
+    render:
+      mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+      material: {fileID: 2100000, guid: 617255beab299d047a427b6256c145a9, type: 2}
+      subMesh: 0
+      castShadows: 1
+      receiveShadows: 1
+  enemyStats:
+    position:
+      Value:
+        x: -15
+        y: 0
+        z: 0
+    rotation:
+      Value:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+    scale:
+      Value:
+        x: 1
+        y: 1
+        z: 1
+    aabbcollider:
+      x: 0
+      y: 0
+      z: 0
+    rigibody: 0
+    velocity:
+      x: 0
+      y: 0
+      z: 0
+    health: 0
+    damage: 0
+    render:
+      mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+      material: {fileID: 2100000, guid: 2e7111415fabaae47b09073b842e690e, type: 2}
+      subMesh: 0
+      castShadows: 1
+      receiveShadows: 1
+  itemStats:
+    position:
+      Value:
+        x: -15
+        y: 0
+        z: -5
+    rotation:
+      Value:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+    scale:
+      Value:
+        x: 1
+        y: 1
+        z: 1
+    aabbcollider:
+      x: 0
+      y: 0
+      z: 0
+    rigidbody: 0
+    render:
+      mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+      material: {fileID: 2100000, guid: 7985d9fae7ed80b459fbcc06a7030c30, type: 2}
+      subMesh: 0
+      castShadows: 1
+      receiveShadows: 1
+  blockStats:
+    position:
+      Value:
+        x: -10
+        y: -7.5
+        z: -10
+    rotation:
+      Value:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+    scale:
+      Value:
+        x: 5
+        y: 2
+        z: 5
+    aabbcollider:
+      x: 0
+      y: 0
+      z: 0
+    render:
+      mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+      material: {fileID: 2100000, guid: 26665b7c836ffea43872c91f8b47dadb, type: 2}
+      subMesh: 0
+      castShadows: 1
+      receiveShadows: 1
+  waterStats:
+    position:
+      Value:
+        x: 0
+        y: -6
+        z: 0
+    rotation:
+      Value:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+    scale:
+      Value:
+        x: 100
+        y: 5
+        z: 100
+    render:
+      mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+      material: {fileID: 2100000, guid: dba33a2bf8b23400bacf323fc2816a51, type: 2}
+      subMesh: 0
+      castShadows: 0
+      receiveShadows: 0

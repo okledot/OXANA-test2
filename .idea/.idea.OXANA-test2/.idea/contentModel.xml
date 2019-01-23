@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\vasma\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\vasma\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_OXANA-test2.257510368.00" t="ExcludeRecursive" />
+    <e p="D:\Unity\UnityProjects\OXANA-test2" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ECS" t="Include">
+          <e p="Enviroment" t="Include">
+            <e p="LevelGenerator.cs" t="Include" />
+          </e>
+          <e p="GameObjects" t="Include">
+            <e p="Components" t="Include">
+              <e p="Misc" t="Include">
+                <e p="AABBCollider.cs" t="Include" />
+                <e p="Damage.cs" t="Include" />
+                <e p="Health.cs" t="Include" />
+                <e p="Rigidbody.cs" t="Include" />
+              </e>
+              <e p="Player" t="Include">
+                <e p="Input.cs" t="Include" />
+                <e p="Velocity.cs" t="Include" />
+              </e>
+            </e>
+            <e p="GameObjectsGenerator.cs" t="Include" />
+            <e p="ObjectsEntityFactory.cs" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Buttons" t="Include">
+              <e p="ButtonHandler.cs" t="Include" />
+            </e>
+            <e p="Misc" t="Include">
+              <e p="InitializeSettings.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="JobSystem" t="Include">
+          <e p="Movement" t="Include">
+            <e p="InputConroller.cs" t="Include" />
+            <e p="MovementSettings.cs" t="Include" />
+            <e p="MovementSystem.cs" t="Include" />
+          </e>
+        </e>
+        <e p="UnityEngine" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="TestSceneInitializer.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Water" t="Include">
+              <e p="FXWaterLowpoly.shader" t="Include" />
+              <e p="WaterInclude.cginc" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="OXANA-test2.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
